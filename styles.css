@@ -10,13 +10,12 @@ body {
 
 .flex-container {
     border: 10px solid #F9F871;
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto;
     padding: .25em;
 
     display: flex;
-    flex-direction: column-reverse;
-    flex-wrap: nowrap;
+    justify-content: space-between;
    
 }
 
