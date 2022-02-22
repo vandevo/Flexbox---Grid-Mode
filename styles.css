@@ -10,13 +10,13 @@ body {
 
 .flex-container {
     border: 10px solid #F9F871;
-    max-width: 700px;
+    width: 80%;
     margin: 0 auto;
     padding: .25em;
-    
-
-
-    display: flex;
+    height: 50vh;
+   align-items: flex-start;
+   display: flex;
+   flex-direction: column;
 
 
 
@@ -28,8 +28,8 @@ body {
 
 .flex-item {
     background: #8BEE86;
-    margin: 25px;
-    padding: 25px;
+    margin: .5em;
+    padding: .5em;
     color: #424656;
 
     width: 200px;
@@ -38,14 +38,16 @@ body {
 
 .flex-item-1 {
     background: plum;
-    flex-basis: 100px;
-    min-width: 200px;
+  
+  
+  
 }
 
 .flex-item-2 {
-    
+   
 }
 
 .flex-item-3 {
-
+    align-self: flex-start;
+    margin-top: auto;
 }
